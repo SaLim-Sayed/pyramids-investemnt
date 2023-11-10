@@ -445,7 +445,7 @@ header .mega-menu .links li a i {
 .landing-page {
   min-height: 120vh;
   background-image: url("../imgs/11.jpg");
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -476,6 +476,14 @@ header .mega-menu .links li a i {
 @media (max-width: 575px) {
   .introduction-text h1 {
     font-size: 26px;
+  }
+  .landing-page {
+    min-height: 120vh;
+    background-image: url("../imgs/11.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
   }
 }
 .introduction-text h1 span {
