@@ -328,7 +328,7 @@ header nav ul {
     width: 50%;
     z-index: 22;
    
-    background-color: rgb(255 255 255 / 50%);
+background-color: rgb(255 255 255  );
   }
   header nav ul li a {
     padding: 15px !important;
