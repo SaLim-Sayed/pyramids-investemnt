@@ -326,7 +326,7 @@ header nav ul {
     top: 100%;
     right:   0;
     width: 50%;
-    z-index: 22;
+    z-index: 10000;
    
 background-color: rgb(255 255 255  );
   }
