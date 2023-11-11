@@ -182,7 +182,7 @@ radomBackEl.forEach((span) => {
 // Select Landing Page Element
 let landingPage = document.querySelector(".landing-page");
 
-let imgsArray = ["11.jpg", ];
+let imgsArray = ["11.jpg"  ];
 
 function randmizeImgs() {
   if (backgroundOption === true) {
