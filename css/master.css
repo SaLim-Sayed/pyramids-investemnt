@@ -482,7 +482,7 @@ header .mega-menu .links li a i {
     min-height: 50vh;
     background-image: url("../imgs/11.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
   }
