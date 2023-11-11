@@ -6,16 +6,19 @@
   box-sizing: border-box;
 }
 :root {
-  --main-color: #2196f3;
+  --main-color: #dae3ea;
+  --second-color: #ffffff;
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
   --main-padding-top: 100px;
   --main-padding-bottom: 100px;
   --section-background: #ececec;
-}
-html {
   --scrollbarBG: var(--main-color);
   --thumbBG: #eee;
+}
+html {
+ 
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
@@ -35,6 +38,12 @@ body {
   font-family: "Cairo", sans-serif;
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  background-color: var(--second-color);
+    animation: flashing   2s ease-in-out;
+     
+    
+
+  
 }
 
 a {
@@ -102,6 +111,8 @@ ul {
 .main-title:hover::before {
   z-index: -1;
   animation: left-move 0.5s linear forwards;
+  
+
 }
 .main-title:hover::after {
   z-index: -1;
@@ -1861,14 +1872,17 @@ header .mega-menu .links li a i {
   }
 }
 @keyframes flashing {
-  0%,
-  40% {
+  0% 
+    {
     opacity: 1;
   }
+  50% 
+    {
+    opacity:0;
+  }
   100% {
-    opacity: 0;
-    width: 200%;
-    height: 200%;
+    opacity: 1;
+   
   }
 }
 @keyframes change-background {
